@@ -1,0 +1,23 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+var myvar = 'my value'; 
+  
+(function() { 
+  alert(myvar); // undefined 
+  var myvar = 'local value'; 
+})();
+</script>
+</head>
+<body>
+<div id="container">
+    <ul id="list">
+        <li><a href="">Item #1</a></li>
+        <li><a href="#">Item #2</a></li>
+        <li><a href="#">Item #3</a></li>
+        <li><a href="#">Item #4</a></li>
+    </ul>
+</div>
+</body>
+</html>
